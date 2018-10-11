@@ -27,5 +27,8 @@
   "dependencies": {
     "jquery": ">=1.6"
   },
-  "homepage": "https://github.com/HemantNegi/jquery.sumoselect#readme"
+  "homepage": "https://github.com/HemantNegi/jquery.sumoselect#readme",
+  "devDependencies": {
+    "uglify-js": "^3.4.9"
+  }
 }
