@@ -1,0 +1,38 @@
+{
+    "env": {
+        "browser": true,
+        "jquery": true
+    },
+    "globals": {
+        "$": true,
+        "jQuery": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "no-undef": "off",
+        "no-extra-semi": "off",
+        "indent": [
+            "error",
+            2
+        ],
+        "max-len": [
+            "error",
+            120
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": [
+            "off"
+        ]
+    }
+}

@@ -1,10 +1,10 @@
 {
   "name": "sumoselect",
-  "version": "3.0.3",
+  "version": "3.0.5",
   "description": "A jQuery plugin that progressively enhances an HTML Select Box into a Single/Multiple option dropdown list",
   "main": "jquery.sumoselect.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "uglify": "uglifyjs jquery.sumoselect.js -o jquery.sumoselect.min.js --verbose"
   },
   "repository": {
     "type": "git",
